@@ -33,6 +33,25 @@ namespace Tema1UnitTests
         }
 
         [TestMethod]
+        public void TestProblem3()
+        {
+            double x1 = 0.000000;
+            double y1 = 0.000000;
+            double x2 = 1.000000;
+            double y2 = 1.000000;
+            double x3 = 0.000000;
+            double y3 = 1.000000;
+            Assert.AreEqual(program.Problem3(x1, y1, x2, y2, x3, y3), 1.000000);
+            double xx1 = 0.000000;
+            double yy1 = 0.000000;
+            double xx2 = 0.000000;
+            double yy2 = 3.000000;
+            double xx3 = 4.000000;
+            double yy3 = 0.000000;
+            Assert.AreEqual(program.Problem3(xx1, yy1, xx2, yy2, xx3, yy3), 12.000000);
+        }
+
+        [TestMethod]
         public void TestProblem5()
         {
             int x = 6;

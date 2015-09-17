@@ -4,3 +4,9 @@ c:\users\loredana\documents\visual studio 2015\Projects\Tema1\Tema1\bin\Debug\Te
 c:\users\loredana\documents\visual studio 2015\Projects\Tema1\Tema1\obj\Debug\Tema1.csprojResolveAssemblyReference.cache
 c:\users\loredana\documents\visual studio 2015\Projects\Tema1\Tema1\obj\Debug\Tema1.exe
 c:\users\loredana\documents\visual studio 2015\Projects\Tema1\Tema1\obj\Debug\Tema1.pdb
+C:\Coding\Tema1\bin\Debug\Tema1.exe.config
+C:\Coding\Tema1\obj\Debug\Tema1.exe
+C:\Coding\Tema1\obj\Debug\Tema1.pdb
+C:\Coding\Tema1\bin\Debug\Tema1.exe
+C:\Coding\Tema1\bin\Debug\Tema1.pdb
+C:\Coding\Tema1\obj\Debug\Tema1.csprojResolveAssemblyReference.cache

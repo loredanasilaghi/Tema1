@@ -6,3 +6,12 @@ c:\Users\Loredana\documents\visual studio 2015\Projects\Tema1\Tema1UnitTests\bin
 c:\Users\Loredana\documents\visual studio 2015\Projects\Tema1\Tema1UnitTests\bin\Debug\Tema1.pdb
 c:\Users\Loredana\documents\visual studio 2015\Projects\Tema1\Tema1UnitTests\obj\Debug\Tema1UnitTests.dll
 c:\Users\Loredana\documents\visual studio 2015\Projects\Tema1\Tema1UnitTests\obj\Debug\Tema1UnitTests.pdb
+C:\Coding\Tema1UnitTests\bin\Debug\Tema1UnitTests.dll
+C:\Coding\Tema1UnitTests\bin\Debug\Tema1UnitTests.pdb
+C:\Coding\Tema1UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Coding\Tema1UnitTests\bin\Debug\Tema1.exe
+C:\Coding\Tema1UnitTests\bin\Debug\Tema1.pdb
+C:\Coding\Tema1UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Coding\Tema1UnitTests\obj\Debug\Tema1UnitTests.csprojResolveAssemblyReference.cache
+C:\Coding\Tema1UnitTests\obj\Debug\Tema1UnitTests.dll
+C:\Coding\Tema1UnitTests\obj\Debug\Tema1UnitTests.pdb

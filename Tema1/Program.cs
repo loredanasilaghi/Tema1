@@ -45,6 +45,40 @@ namespace Tema1
             return result;
         }
 
+        public double Problem3(double x1, double y1, double x2, double y2, double x3, double y3)
+        {
+            double area;
+            double l1 = CalculateSqrt(x1, y1, x3, y3);
+            double l2 = CalculateSqrt(x2, y2, x3, y3);
+            double l3 = CalculateSqrt(x1, y1, x2, y2);
+            if ((l1 > l2) && (l1 > l3))
+            {
+                area = l2 * l3;
+            }
+            else if ((l2 > l3) && (l2 > l1))
+            {
+                area = l1 * l3;
+            }
+            else
+            {
+                area = l1 * l2;
+            }
+            return area;
+        }
+
+        public double CalculateExp(double z1, double z2)
+        {
+            double a = z1 - z2;
+            return Math.Pow(a, 2);
+        }
+
+        public double CalculateSqrt(double z1, double t1, double z2, double t2)
+        {
+            double a = CalculateExp(z1, z2) + CalculateExp(t1, t2);
+            double b = Math.Sqrt(a);
+            return b;
+        }
+
         public string Problem5(int x)
         {
             if (x % 2 == 0)
