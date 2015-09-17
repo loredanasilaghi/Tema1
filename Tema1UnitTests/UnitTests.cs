@@ -71,6 +71,13 @@ namespace Tema1UnitTests
         }
 
         [TestMethod]
+        public void TestProblem6()
+        {
+            int n = 5;
+            Assert.AreEqual(program.Problem6(n), 25);
+        }
+
+        [TestMethod]
         public void TestProblem8()
         {
             int x = 2;
