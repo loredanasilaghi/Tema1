@@ -52,6 +52,16 @@ namespace Tema1UnitTests
         }
 
         [TestMethod]
+        public void TestProblem4()
+        {
+            double credit = 40000;
+            double aInterest = 7.57;
+            int noMonths = 240;
+            int noGivenRates = 39;
+            Assert.AreEqual(Math.Round(program.Problem4(credit, aInterest, noMonths, noGivenRates)),379);
+        }
+        
+        [TestMethod]
         public void TestProblem5()
         {
             int x = 6;
@@ -70,6 +80,7 @@ namespace Tema1UnitTests
             int w = 6;
             Assert.AreEqual(program.Problem8(x, y, z, q, w), 20);
         }
+
         [TestMethod]
         public void TestProblem9()
         {

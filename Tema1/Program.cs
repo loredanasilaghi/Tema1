@@ -79,6 +79,15 @@ namespace Tema1
             return b;
         }
 
+        public double Problem4(double credit, double aInterest, int noMonths, int noGivenRates)
+        {
+            double ctAmount = credit / noMonths;
+            double remainingCredit = credit - (ctAmount * (noGivenRates-1));
+            double interest = (aInterest * remainingCredit) / (12 * 100);
+            double rate = ctAmount + interest;
+            return rate;
+        }
+
         public string Problem5(int x)
         {
             if (x % 2 == 0)
