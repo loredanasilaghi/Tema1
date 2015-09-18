@@ -13,13 +13,22 @@ namespace Tema1UnitTests
         Tema1.Program program = new Tema1.Program();
 
         [TestMethod]
-        public void TestProblem1()
+        public void TestProblem1a()
         {
             int m = 6;
             int n = 6;
             int a = 4;
             Assert.AreEqual(program.Problem1(m,n,a), 4);
         }
+
+        //[TestMethod]
+        //public void TestProblem1b()
+        //{
+        //    int m = 5;
+        //    int n = 5;
+        //    int a = 4;
+        //    Assert.AreEqual(program.Problem1(m, n, a), 4);
+        //}
 
         [TestMethod]
         public void TestProblem2()
@@ -33,7 +42,7 @@ namespace Tema1UnitTests
         }
 
         [TestMethod]
-        public void TestProblem3()
+        public void TestProblem3a()
         {
             double x1 = 0.000000;
             double y1 = 0.000000;
@@ -42,6 +51,11 @@ namespace Tema1UnitTests
             double x3 = 0.000000;
             double y3 = 1.000000;
             Assert.AreEqual(program.Problem3(x1, y1, x2, y2, x3, y3), 1.000000);
+        }
+
+        [TestMethod]
+        public void TestProblem3b()
+        {
             double xx1 = 0.000000;
             double yy1 = 0.000000;
             double xx2 = 0.000000;
@@ -62,12 +76,19 @@ namespace Tema1UnitTests
         }
         
         [TestMethod]
-        public void TestProblem5()
+        public void TestProblem5a()
         {
             int x = 6;
             Assert.AreEqual(program.Problem5(x), "DA");
             int y = 7;
             Assert.AreEqual(program.Problem5(y), "NU");
+        }
+
+        [TestMethod]
+        public void TestProblem5b()
+        {
+            int x = 2;
+            Assert.AreEqual(program.Problem5(x), "NU");
         }
 
         [TestMethod]

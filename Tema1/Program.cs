@@ -10,7 +10,9 @@ namespace Tema1
     {
         public int Problem1(int m, int n, int a)
         {
-            double x = Math.Round((double)m / a) + Math.Round((double)n / a);
+            double x1 = Math.Round((double)m / a);
+            double x2 = Math.Round((double)n / a);
+            double x = x1 + x2;
             return Convert.ToInt32(x);
         }
 
@@ -90,6 +92,10 @@ namespace Tema1
 
         public string Problem5(int x)
         {
+            if (x == 2)
+            {
+                return "NU";
+            }
             if (x % 2 == 0)
             {
                 return "DA";
