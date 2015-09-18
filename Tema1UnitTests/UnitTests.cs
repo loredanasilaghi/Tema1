@@ -21,14 +21,32 @@ namespace Tema1UnitTests
             Assert.AreEqual(program.Problem1(m,n,a), 4);
         }
 
-        //[TestMethod]
-        //public void TestProblem1b()
-        //{
-        //    int m = 5;
-        //    int n = 5;
-        //    int a = 4;
-        //    Assert.AreEqual(program.Problem1(m, n, a), 4);
-        //}
+        [TestMethod]
+        public void TestProblem1b()
+        {
+            int m = 5;
+            int n = 5;
+            int a = 4;
+            Assert.AreEqual(program.Problem1(m, n, a), 4);
+        }
+
+        [TestMethod]
+        public void TestProblem1c()
+        {
+            int m = 4;
+            int n = 4;
+            int a = 4;
+            Assert.AreEqual(program.Problem1(m, n, a), 1);
+        }
+
+        [TestMethod]
+        public void TestProblem1d()
+        {
+            int m = 5;
+            int n = 6;
+            int a = 4;
+            Assert.AreEqual(program.Problem1(m, n, a), 4);
+        }
 
         [TestMethod]
         public void TestProblem2()

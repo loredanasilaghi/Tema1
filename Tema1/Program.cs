@@ -10,9 +10,9 @@ namespace Tema1
     {
         public int Problem1(int m, int n, int a)
         {
-            double x1 = Math.Round((double)m / a);
-            double x2 = Math.Round((double)n / a);
-            double x = x1 + x2;
+            double x1 = Math.Ceiling((double)m / a);
+            double x2 = Math.Ceiling((double)n / a);
+            double x = x1 * x2;
             return Convert.ToInt32(x);
         }
 
