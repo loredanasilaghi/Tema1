@@ -117,6 +117,22 @@ namespace Tema1UnitTests
         }
 
         [TestMethod]
+        public void TestProblem7a()
+        {
+            int x = 2;
+            double d = 16;
+            Assert.AreEqual(program.Problem7(x, d), 8);
+        }
+
+        [TestMethod]
+        public void TestProblem7b()
+        {
+            int x = 2;
+            double d = 15;
+            Assert.AreEqual(program.Problem7(x, d), 7.5);
+        }
+
+        [TestMethod]
         public void TestProblem8()
         {
             int x = 2;

@@ -117,6 +117,13 @@ namespace Tema1
             return noRep;
         }
 
+        public double Problem7(double x, double d)
+        {
+            double t;
+            t = d / x;
+            return t;
+        }
+
         public int Problem8(int x, int y, int z, int q, int w)
         {
             return (z * q * w) / (x * y);
