@@ -152,5 +152,25 @@ namespace Tema1UnitTests
             Assert.AreEqual(list[0], 3);
             Assert.AreEqual(list[1], 6);
         }
+
+        [TestMethod]
+        public void TestProblem10()
+        {
+            int n = 5;
+            int m = 6;
+            int a = 2;
+            int b = 4;
+            Assert.AreEqual(program.Problem10(n, m, a, b), 5);
+        }
+
+        [TestMethod]
+        public void TestProblem10b()
+        {
+            int n = 7;
+            int m = 9;
+            int a = 2;
+            int b = 3;
+            Assert.AreEqual(program.Problem10(n, m, a, b), 13);
+        }
     }
 }

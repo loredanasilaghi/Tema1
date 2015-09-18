@@ -139,6 +139,14 @@ namespace Tema1
             return list;
         }
 
+        public int Problem10(int n, int m, int a, int b)
+        {
+            //whole floor, including losses
+            double area = (n * m) + (0.15 * n * m);
+            double board = a * b;
+            double noBoards = Math.Ceiling(area / board);
+            return Convert.ToInt32(noBoards);
+        }
 
 
 
