@@ -8,145 +8,21 @@ namespace Tema1
 {
     public class Program
     {
-        public int Problem1(int m, int n, int a)
-        {
-            double x1 = Math.Ceiling((double)m / a);
-            double x2 = Math.Ceiling((double)n / a);
-            double x = x1 * x2;
-            return Convert.ToInt32(x);
-        }
+        
 
-        public string Problem2(int x)
-        {
-            int pos1 = -1;
-            int pos2 = -1;
-            int pos3 = -1;
-            x--;
+       
 
-            List<string> letters = new List<string> { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
-            pos2 = x / 26 - 1;
-            pos3 = x % 26;
-            if (pos2 >= 26)
-            {
-                pos1 = pos2 / 26 -1;
-            }
-            string result;
-            if (pos1 >= 0)
-            {
-                pos2 -= 26;
-                result = letters[pos1] + letters[pos2] + letters[pos3];
-            }
-            else if (pos2 >= 0)
-            {
-                result = letters[pos2] + letters[pos3];
-            }
-            else
-            {
-                result = letters[pos3];
-            }
-            return result;
-        }
+        
 
-        public double Problem3(double x1, double y1, double x2, double y2, double x3, double y3)
-        {
-            double area;
-            double l1 = CalculateSqrt(x1, y1, x3, y3);
-            double l2 = CalculateSqrt(x2, y2, x3, y3);
-            double l3 = CalculateSqrt(x1, y1, x2, y2);
-            if ((l1 > l2) && (l1 > l3))
-            {
-                area = l2 * l3;
-            }
-            else if ((l2 > l3) && (l2 > l1))
-            {
-                area = l1 * l3;
-            }
-            else
-            {
-                area = l1 * l2;
-            }
-            return area;
-        }
+        
 
-        public double CalculateExp(double z1, double z2)
-        {
-            double a = z1 - z2;
-            return Math.Pow(a, 2);
-        }
+       
 
-        public double CalculateSqrt(double z1, double t1, double z2, double t2)
-        {
-            double a = CalculateExp(z1, z2) + CalculateExp(t1, t2);
-            double b = Math.Sqrt(a);
-            return b;
-        }
+        
 
-        public double Problem4(double credit, double aInterest, int noMonths, int noGivenRates)
-        {
-            double ctAmount = credit / noMonths;
-            double remainingCredit = credit - (ctAmount * (noGivenRates-1));
-            double interest = (aInterest * remainingCredit) / (12 * 100);
-            double rate = ctAmount + interest;
-            return rate;
-        }
+        
 
-        public string Problem5(int x)
-        {
-            if (x == 2)
-            {
-                return "NU";
-            }
-            if (x % 2 == 0)
-            {
-                return "DA";
-            }
-            else
-            {
-                return "NU";
-            }
-        }
-
-        public int Problem6(int n)
-        {
-            //repetitions from 1 to n
-            int repPart1 = n*(n + 1) / 2;
-            //repetitions from (n-1) to 1
-            int repPart2 = (n - 1) * n / 2;
-            //total number of repetitions
-            int noRep = repPart1 + repPart2;
-            return noRep;
-        }
-
-        public double Problem7(double x, double d)
-        {
-            double t;
-            t = d / x;
-            return t;
-        }
-
-        public int Problem8(int x, int y, int z, int q, int w)
-        {
-            return (z * q * w) / (x * y);
-        }
-
-        public List<int> Problem9(int n, int x)
-        {
-            int a = n / (x + 1);
-            int r = (n * x) / (x + 1);
-            List<int> list = new List<int>();
-            list.Add(a);
-            list.Add(r);
-            return list;
-        }
-
-        public int Problem10(int n, int m, int a, int b)
-        {
-            //whole floor, including losses
-            double area = (n * m) + (0.15 * n * m);
-            double board = a * b;
-            double noBoards = Math.Ceiling(area / board);
-            return Convert.ToInt32(noBoards);
-        }
+        
 
 
 
