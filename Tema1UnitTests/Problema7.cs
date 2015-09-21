@@ -10,23 +10,25 @@ namespace Tema1UnitTests
         public void TestProblem7a()
         {
             int x = 2;
-            double d = 16;
+            float d = 16;
             Assert.AreEqual(CalculateTheDistance(x, d), 8);
         }
 
         [TestMethod]
         public void TestProblem7b()
         {
-            int x = 2;
-            double d = 15;
+            int x = 3;
+            float d = 15;
             Assert.AreEqual(CalculateTheDistance(x, d), 7.5);
         }
 
-        public double CalculateTheDistance(double x, double d)
+        public float CalculateTheDistance(float x, float d)
         {
-            double t;
-            t = d / x;
-            return t;
+            float distanceRemaining = d / 2;
+            float cumulativeSpeedOfTrains = 2 * x;
+            float trainTime = distanceRemaining / cumulativeSpeedOfTrains;
+            float birdDistance = 2 * x * trainTime;
+            return birdDistance;
         }
 
     }
