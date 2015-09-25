@@ -10,16 +10,16 @@ namespace Tema1UnitTests
         public void TestProblem5a()
         {
             int x = 6;
-            Assert.AreEqual(CanItBeShared(x), "DA");
+            Assert.AreEqual("DA", CanItBeShared(x));
             int y = 7;
-            Assert.AreEqual(CanItBeShared(y), "NU");
+            Assert.AreEqual("NU", CanItBeShared(y));
         }
 
         [TestMethod]
         public void TestProblem5b()
         {
             int x = 2;
-            Assert.AreEqual(CanItBeShared(x), "NU");
+            Assert.AreEqual("NU", CanItBeShared(x));
         }
 
         public string CanItBeShared(int x)

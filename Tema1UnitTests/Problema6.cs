@@ -10,7 +10,7 @@ namespace Tema1UnitTests
         public void TestProblem6()
         {
             int n = 5;
-            Assert.AreEqual(CalculateNumberOfRepetitions(n), 25);
+            Assert.AreEqual(25, CalculateNumberOfRepetitions(n));
         }
 
         public int CalculateNumberOfRepetitions(int n)

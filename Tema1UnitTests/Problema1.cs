@@ -13,7 +13,7 @@ namespace Tema1UnitTests
             int m = 6;
             int n = 6;
             int a = 4;
-            Assert.AreEqual(CalculateNumberOfPieces(m,n,a), 4);
+            Assert.AreEqual(4, CalculateNumberOfPieces(m,n,a));
         }
 
         [TestMethod]
@@ -22,7 +22,7 @@ namespace Tema1UnitTests
             int m = 5;
             int n = 5;
             int a = 4;
-            Assert.AreEqual(CalculateNumberOfPieces(m, n, a), 4);
+            Assert.AreEqual(4, CalculateNumberOfPieces(m, n, a));
         }
 
         [TestMethod]
@@ -31,7 +31,7 @@ namespace Tema1UnitTests
             int m = 4;
             int n = 4;
             int a = 4;
-            Assert.AreEqual(CalculateNumberOfPieces(m, n, a), 1);
+            Assert.AreEqual(1, CalculateNumberOfPieces(m, n, a));
         }
 
         [TestMethod]
@@ -40,7 +40,7 @@ namespace Tema1UnitTests
             int m = 5;
             int n = 6;
             int a = 4;
-            Assert.AreEqual(CalculateNumberOfPieces(m, n, a), 4);
+            Assert.AreEqual(4, CalculateNumberOfPieces(m, n, a));
         }
 
         public int CalculateNumberOfPieces(int m, int n, int a)

@@ -11,7 +11,7 @@ namespace Tema1UnitTests
         {
             int x = 2;
             float d = 16;
-            Assert.AreEqual(CalculateTheDistance(x, d), 8);
+            Assert.AreEqual(8, CalculateTheDistance(x, d));
         }
 
         [TestMethod]
@@ -19,7 +19,7 @@ namespace Tema1UnitTests
         {
             int x = 3;
             float d = 15;
-            Assert.AreEqual(CalculateTheDistance(x, d), 7.5);
+            Assert.AreEqual(7.5, CalculateTheDistance(x, d));
         }
 
         public float CalculateTheDistance(float x, float d)

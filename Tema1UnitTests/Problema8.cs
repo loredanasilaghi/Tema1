@@ -14,7 +14,7 @@ namespace Tema1UnitTests
             int z = 4;
             int q = 5;
             int w = 6;
-            Assert.AreEqual(Calculatekg(x, y, z, q, w), 20);
+            Assert.AreEqual(20, Calculatekg(x, y, z, q, w));
         }
 
         public int Calculatekg(int x, int y, int z, int q, int w)

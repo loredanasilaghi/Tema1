@@ -12,7 +12,7 @@ namespace Tema1UnitTests
             Coordinates x = new Coordinates(0.000000, 0.000000);
             Coordinates y = new Coordinates(1.000000, 1.000000);
             Coordinates z = new Coordinates(0.000000, 1.000000);
-            Assert.AreEqual(CalculateArea(x, y, z), 1.000000);
+            Assert.AreEqual(1.000000, CalculateArea(x, y, z));
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace Tema1UnitTests
             Coordinates x = new Coordinates(0.000000, 0.000000);
             Coordinates y = new Coordinates(0.000000, 3.000000);
             Coordinates z = new Coordinates(4.000000, 0.000000);
-            Assert.AreEqual(CalculateArea(x, y, z), 12.000000);
+            Assert.AreEqual(12.000000, CalculateArea(x, y, z));
         }
 
         [TestMethod]
@@ -30,7 +30,7 @@ namespace Tema1UnitTests
             Coordinates x = new Coordinates(0.000000, 0.000000);
             Coordinates y = new Coordinates(1.000000, 1.000000);
             Coordinates z = new Coordinates(0.000000, 1.000000);
-            Assert.AreEqual(Math.Round(CalculateTraingleArea(x, y, z), 1), 0.500000);
+            Assert.AreEqual(0.500000, Math.Round(CalculateTraingleArea(x, y, z), 1));
         }
 
         public struct Coordinates

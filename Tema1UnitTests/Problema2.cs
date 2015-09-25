@@ -14,21 +14,21 @@ namespace Tema1UnitTests
         public void TestProblem2a()
         {
             int a = 3;
-            Assert.AreEqual(Problem2(a), "C");
+            Assert.AreEqual("C", Problem2(a));
         }
 
         [TestMethod]
         public void TestProblem2b()
         {
             int b = 52;
-            Assert.AreEqual(Problem2(b), "AZ");
+            Assert.AreEqual("AZ", Problem2(b));
         }
 
         [TestMethod]
         public void TestProblem2c()
         {
             int c = 703;
-            Assert.AreEqual(Problem2(c), "AAA");
+            Assert.AreEqual("AAA", Problem2(c));
         }
 
         public string Problem2(int x)

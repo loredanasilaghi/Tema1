@@ -13,8 +13,8 @@ namespace Tema1UnitTests
             int n = 9;
             int x = 2;
             List<int> list = GetListWithMushrooms(n, x);
-            Assert.AreEqual(list[0], 3);
-            Assert.AreEqual(list[1], 6);
+            Assert.AreEqual(3, list[0]);
+            Assert.AreEqual(6, list[1]);
         }
         
         public List<int> GetListWithMushrooms(int n, int x)

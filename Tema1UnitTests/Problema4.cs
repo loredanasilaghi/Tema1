@@ -13,7 +13,7 @@ namespace Tema1UnitTests
             double aInterest = 7.57;
             int noMonths = 240;
             int noGivenRates = 39;
-            Assert.AreEqual(Math.Round(CalculateRate(credit, aInterest, noMonths, noGivenRates)), 379);
+            Assert.AreEqual(379, Math.Round(CalculateRate(credit, aInterest, noMonths, noGivenRates)));
         }
         
         public double CalculateRate(double credit, double aInterest, int noMonths, int noGivenRates)

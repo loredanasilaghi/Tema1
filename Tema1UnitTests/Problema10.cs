@@ -13,7 +13,7 @@ namespace Tema1UnitTests
             int m = 6;
             int a = 2;
             int b = 4;
-            Assert.AreEqual(CalculateNumberOfBoards(n, m, a, b), 5);
+            Assert.AreEqual(5, CalculateNumberOfBoards(n, m, a, b));
         }
 
         [TestMethod]
@@ -23,7 +23,7 @@ namespace Tema1UnitTests
             int m = 9;
             int a = 2;
             int b = 3;
-            Assert.AreEqual(CalculateNumberOfBoards(n, m, a, b), 13);
+            Assert.AreEqual(13, CalculateNumberOfBoards(n, m, a, b));
         }
 
         public int CalculateNumberOfBoards(int n, int m, int a, int b)
